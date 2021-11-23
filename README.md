@@ -4,6 +4,8 @@
 ### Aim of the project
 The project aims to create a kernel module and load the same into the Linux kernel. Also, the kernel module is modified so that it creates an entry
 in the /proc file system
+![image](https://user-images.githubusercontent.com/65976375/142977921-f0984d46-a698-4842-982a-b4909faccc43.png)
+Image Ref:https://xdecroc.wordpress.com/2016/03/04/an-introduction-to-linux-loadable-kernel-modules/
 
 ### Environment Setup
 I used the Linux virtual machine provided with the OS concepts text.This ensured that any errors in the code which has the potential to cause a system crash can be handled by rebooting the system. The virtual machine provided command-line based Ubuntu Server running version 4.4 of the Linux kernel.I followed the instructions in the link http://cs.westminstercollege.edu/~greg/osc10e/vm/index.html to install virtual box and virtual machine. I referred source code available in the OS concepts website and referred the github link https://github.com/KhanhNguyen4999/Simple_shell_linux_c . In addition to the OS concepts book, I referred https://www.geeksforgeeks.org/making-linux-shell-c/ for more understanding
