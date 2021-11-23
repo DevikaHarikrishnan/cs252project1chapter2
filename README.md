@@ -4,7 +4,9 @@
 ### Aim of the project
 The project aims to create a kernel module and load the same into the Linux kernel. Also, the kernel module is modified so that it creates an entry
 in the /proc file system
+
 ![image](https://user-images.githubusercontent.com/65976375/142977921-f0984d46-a698-4842-982a-b4909faccc43.png)
+
 Image Ref:https://xdecroc.wordpress.com/2016/03/04/an-introduction-to-linux-loadable-kernel-modules/
 
 ### Environment Setup
