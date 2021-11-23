@@ -23,15 +23,15 @@ The first part of the project involved creating and inserting a module into the 
 3. Print out the values of jiffies and HZ in the simple init() function.
 4. Print out the value of jiffies in the simple exit() function.
 
-The above requirements are coded in simple.c file
+The above requirements are coded in **simple.c** file
 
 The second part of the project involved designing kernel modules that create additional entries in the /proc file system involving both kernel statistics and information related to specific processes
 
 The requirements involved in this part are as follows
 1.Design a kernel module that creates a /proc file named /proc/jiffies that reports the current value of jiffies when the /proc/jiffies file is read, such as with the command cat /proc/jiffies.Be sure to remove /proc/jiffies when the module is removed.
-This is coded in readjiffies.c
+This is coded in **readjiffies.c**
 2.Design a kernel module that creates a proc file named /proc/seconds that reports the number of elapsed seconds since the kernel module was loaded. This will involve using the value of jiffies as well as the HZ rate. When a user enters the command cat /proc/seconds your kernel module will report the number of seconds that have elapsed since the kernel module was first loaded. Be sure to remove /proc/seconds when the module is removed.
-This is coded in timeelapsed.c
+This is coded in **timeelapsed.c**
 
 
 
